@@ -1,0 +1,15 @@
+const pageType = {
+  INDEX: 'INDEX',
+  SINGLE_CAT: 'CAT_VIEW',
+  SINGLE_LIST: 'ITEMS_VIEW',
+  SINGLE_ITEM: 'SINGLE_ITEM',
+  POST_ITEM: 'POST_ITEM',
+  EDIT_CAT: 'EDIT_CAT',
+  EDIT_LIST: 'EDIT_LIST',
+  EDIT_ITEM: 'EDIT_ITEM',
+  USER_VIEW: 'USER_VIEW',
+  USER_SELF: 'USER_SELF',
+  USER_SETTING: 'USER_SETTING',
+};
+
+export default Object.freeze(pageType);
